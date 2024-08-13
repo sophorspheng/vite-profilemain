@@ -70,27 +70,33 @@ export default function App() {
           </li>
         </div>
       </header>
-      <body className="pl-7 pr-7s absolute">
-        <div className="py-40 px-52 justify-around space-y-3">
-          <h1 className="text-white font-normal text-xl">WELCOME TO MY WORLD</h1>
-          <div className="flex space-x-4">
-          <h1 className="text-white font-bold text-5xl">Hi, I'm</h1>
-          <h1 className="text-red-400 font-bold text-5xl">Pheng Sophors</h1>
+      <body className="">
+      <div className="relative flex mt-7 mx-7 justify-between">
+        <div className="py-20 px-4 sm:px-6 md:py-24 md:px-16 lg:py-32 lg:px-32 space-y-3">
+          <h1 className="text-white font-normal text-xl sm:text-2xl md:text-3xl">
+            WELCOME TO MY WORLD
+          </h1>
+          <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2 md:space-x-4">
+            <h1 className="text-white font-bold text-2xl sm:text-3xl md:text-5xl">Hi, I'm</h1>
+            <h1 className="text-red-400 font-bold text-2xl sm:text-3xl md:text-5xl">Pheng Sophors</h1>
           </div>
-          <h1 className="text-white font-bold text-3xl">a  Software Developer.|</h1>
-          <p className="text-white   text-xl">I use animation as a third dimension by which to simplify experience
-            and kulding thro each and every interaction. I'm not adding motion just to spruce things up, but doing it in ways that.
+          <h1 className="text-white font-bold text-lg sm:text-xl md:text-3xl">a Software Developer.</h1>
+          <p className="text-white text-sm sm:text-base md:text-lg">
+            I use animation as a third dimension by which to simplify experience
+            and building through each and every interaction. I'm not adding
+            motion just to spruce things up, but doing it in ways that.
           </p>
-          <div className="pt-24 flex space-x-5">
-      <button className="btn btn-primary bg-yellow-500 text-white p-2 rounded-full w-32 shadow-md shadow-gray-600">HIRE ME</button>
-      
-      <button className="btn btn-primary  text-white p-3 rounded-full space-x-10 justify-between shadow-md shadow-gray-600 border border-solid border-yellow-500">
-      <li className="bx bx-play text-white text-3xl text-sm font-extrabold bg-yellow-500 p-2 w-9 rounded-full  "></li>
-      Watch Video
-          </button>
-      </div>
+          <div className="pt-8 md:pt-16 flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-5">
+            <button className="bg-yellow-500 text-white py-2 px-4 rounded-full shadow-md shadow-gray-600 w-32 sm:w-36">
+              HIRE ME
+            </button>
+            <button className="flex items-center space-x-2 hidden sm:flex border border-yellow-500 text-white  px-4 rounded-full shadow-md shadow-gray-600">
+              <i className="bx bx-play bg-yellow-500 p-2 rounded-full"></i>
+              <span>Watch Video</span>
+            </button>
+          </div>
         </div>
-     
+      </div>
       </body>
     </div>
   );
