@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <div className="w-full h-full absolute bg-gradient-to-r from-blue-400 to-emerald-400">
-      <img src={bgimage} alt="" className="absolute w-full h-full"></img>
+      {/* <img src={bgimage} alt="" className="absolute w-full h-full"></img> */}
       <header className="mt-7 rounded-md ml-7 mr-7  flex justify-between items-center text-black py-4 px-8 md:px-32 bg-gradient-to-r from-white to-red drop-shadow-md">
         <a href="#" className="text-center flex space-x-3 items-center">
           <img
